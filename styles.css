@@ -242,6 +242,18 @@ h2::after {
     opacity: 0.8;
 }
 
+.portfolio-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: box-shadow 0.3s, background 0.3s;
+}
+
+.portfolio-link:hover {
+    box-shadow: 0 8px 24px var(--shadow-color);
+    background: #f0f4ff;
+}
+
 /* 联系方式样式 */
 .contact {
     background-color: var(--background-light);
@@ -520,4 +532,4 @@ h2::after {
         text-align: center;
         margin: 0.2rem 0;
     }
-} 
+}
